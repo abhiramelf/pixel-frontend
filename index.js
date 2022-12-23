@@ -1,3 +1,5 @@
+
+
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -14278,7 +14280,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var signallingServerAddress = "ws://sps-poc-573344818.ap-south-1.elb.amazonaws.com/qd-61eskrjf22/ws";
+var signallingServerAddress = "ws://sps-poc-573344818.ap-south-1.elb.amazonaws.com/qd-aw6q8n5aec/ws";
 if (signallingServerAddress == '') {
     // define our signallingServerProtocol to be used based on whether
     // or not we're accessing our frontend via a tls
@@ -14297,6 +14299,7 @@ if (signallingServerAddress == '') {
         signallingServerAddress += (window.location.pathname + '/ws');
     }
 }
+
 // prep the player div element 
 var playerElement = document.getElementById("player");
 // Create a config object
@@ -14319,6 +14322,8 @@ function CreateConfig(signalingAddress, playerElement) {
     var config = new _tensorworks_libspsfrontend__WEBPACK_IMPORTED_MODULE_6__.Config(signalingAddress, playerElement);
     return config;
 }
+
+document.getElementById("connectButton").innerHTML = "Connect Now";
 
 })();
 
