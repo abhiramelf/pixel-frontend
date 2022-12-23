@@ -366,9 +366,17 @@ object {
 	background-size: cover;
 	background-position: center;
 	animation: zoom-in-zoom-out 60s ease infinite;
+
+	font-family: Glitch;
 }
 
+#afkOverlayInner,
+#errorOverlayInner,
+#disconnectButton,
 #messageOverlayInner {
+	position: absolute;
+	bottom: 20%;
+	left: 5;
 	animation: zoom-out-zoom-in 60s ease infinite;
 }
 
