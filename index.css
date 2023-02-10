@@ -353,7 +353,7 @@ object {
 #errorOverlay,
 #afkOverlay,
 #disconnectOverlay {
-	background-image: url('./images/Loading.png');
+	background-image: url('./images/BIOME.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -361,7 +361,7 @@ object {
 }
 
 #infoOverlay {
-	background-image: url('./images/Frame\ 32.png');
+	background-image: url('./images/Loading_Biome.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
